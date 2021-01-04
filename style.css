@@ -1,0 +1,190 @@
+html {
+    background-repeat: no-repeat;
+    max-height: 720px;
+    background: url(https://thumbs.gfycat.com/BreakableGlaringImpala-max-1mb.gif);
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+}
+
+body {
+    background: url("https://mcvt-comet-37.fra1.cdn.digitaloceanspaces.com//previews/44434/thumb_44434.jpg");
+    background-size: 520px 400px;
+    background-color: white;
+    background-repeat: no-repeat;
+    box-shadow: -5px 5px gray;
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 3px solid;
+    border-color: gainsboro;
+    border-radius: 20px;
+}
+
+#display {
+    opacity: 80%;
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    width: 270px;
+    height: 50px;
+    position: relative;
+    top: 0px;
+    margin-left: 5px;
+    margin-right: auto;
+    background-color: white;
+    background-size: cover;
+    border: 5px solid;
+    border-color: gray;
+    border-radius: 20px;
+    text-align: right;
+}
+
+.buttons {
+    width: 280px;
+    height: 400px;
+    position: relative;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 9px;
+    margin-top: 10px;
+}
+
+button {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    background-color: azure;
+    opacity: 80%;
+    border-radius: 15px;
+    outline: none;
+}
+
+button:active{
+    opacity: 100% !important;
+}
+
+#num0 {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: azure;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+#decm {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: cornflowerblue;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+#clear {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    background: #ff8fe7;
+    opacity: 80%;
+    border-radius: 15px;
+    
+}
+#erase {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    background: #ff8fe7;
+    opacity: 80%;
+    border-radius: 15px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+#div {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    background-color: darkturquoise;
+    opacity: 80%;
+    border-radius: 15px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
+
+#mult {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: darkturquoise;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+#add {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: darkturquoise;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+#sub {
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-color: darkturquoise;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+#result{
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: aquamarine;
+    opacity: 80%;
+    border-radius: 15px;
+}
+
+#sign{
+    font-family: "Brush Script M7";
+    font-size: 40px;
+    background-color: cornflowerblue;
+    opacity: 80%;
+    border-radius: 15px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 0;
+    grid-row-end: 1;
+}
